@@ -6,7 +6,7 @@
 
 :root {
     --black: #212529;
-    
+    --font-family-system: Inter,sans-serif;
     
 }
 
@@ -15,14 +15,26 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
     flex-direction: row-reverse;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #EDF2F4;
 }
 
-.buttons {
+.List {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
+}
+
+.Lists {
+    font-family: var(--font-family-system);
+    color: var(--black);
+    text-decoration: none !important;
+}
+
+
+li {
+    list-style-type: none;
+    margin: auto 20px;
 }

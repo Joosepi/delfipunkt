@@ -7,7 +7,7 @@
 :root {
     --black: #212529;
     --font-family-system: Inter,sans-serif;
-    
+    --blueish: #3858F3;
 }
 
 header {
@@ -22,8 +22,10 @@ header {
 
 .List {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 
 }
 
@@ -37,4 +39,101 @@ header {
 li {
     list-style-type: none;
     margin: auto 20px;
+}
+
+.menutop {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+
+.menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+.Lists2 {
+    border: 0px solid;
+    font-family: var(--font-family-system);
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 100px;
+    line-height: 1;
+    width: 79px;
+    padding: 8px 5px;
+    background-color: #3858F3;
+    color: #FFFF;
+    
+}
+
+.Lists3 {
+    border: 0px solid;
+    font-family: var(--font-family-system);
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 100px;
+    line-height: 1;
+    width: 79px;
+    padding: 8px 5px;
+    background-color: #edf2f4;
+}
+
+.line {
+    width: 1px;
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 5px;
+    background: black;
+}
+
+.buttoniconsearch {
+    cursor: pointer;
+    border: 0px solid;
+    background-color: white;
+}
+
+.button_icon {
+    stroke: black;
+    fill: black;
+}
+
+.charty {
+    display: inline!important;
+}
+
+.C-all {
+    margin-right: 0;
+    border: 0px solid white;
+    background-color: white; 
+
+}
+
+.C-box {
+    display: block;
+    width: 12px;
+    height: 8px;
+    position: relative;
+}
+
+.C-inner {
+    width: 14px;
+    height: 1px;
+    background-color: var(--black);
+    border-radius: 8px;
+    position: absolute;
+    transition-duration: .15s;
+    transition-timing-function: ease;
+}
+
+.loginbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }

@@ -26,6 +26,7 @@ header {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    gap: 14px;
 
 }
 
@@ -38,7 +39,7 @@ header {
 
 li {
     list-style-type: none;
-    margin: auto 20px;
+    margin: auto 8px;
 }
 
 .menutop {
@@ -117,16 +118,16 @@ li {
 
 .C-box {
     display: block;
-    width: 12px;
+    width: 10px;
     height: 8px;
     position: relative;
 }
 
 .C-inner {
-    width: 14px;
+    width: 12px;
     height: 1px;
     background-color: var(--black);
-    border-radius: 8px;
+    border-radius: 4px;
     position: absolute;
     transition-duration: .15s;
     transition-timing-function: ease;

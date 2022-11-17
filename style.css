@@ -20,6 +20,10 @@ header {
     border-bottom: 1px solid #EDF2F4;
 }
 
+.header2 {
+    
+}
+
 .List {
     display: flex;
     flex-wrap: wrap;
@@ -106,35 +110,27 @@ li {
 }
 
 .charty {
-    display: inline!important;
-}
-
-.C-all {
-    margin-right: 0;
-    border: 0px solid white;
-    background-color: white; 
-
-}
-
-.C-box {
-    display: block;
-    width: 10px;
-    height: 8px;
-    position: relative;
-}
-
-.C-inner {
-    width: 12px;
-    height: 1px;
-    background-color: var(--black);
-    border-radius: 4px;
-    position: absolute;
-    transition-duration: .15s;
-    transition-timing-function: ease;
+    display: block!important;
 }
 
 .loginbox {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.button-menu2 {
+    cursor: pointer;
+    border: 0px solid;
+    background-color: #FFFF;
+    padding: 5px;
+    left: 10%;
+    bottom: 0;
+    height: 10%;
+}
+
+.button-menu {
+    cursor: pointer;
+    border: 0px solid;
+    background-color: #FFFF;
 }
